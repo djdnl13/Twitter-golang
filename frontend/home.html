@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet/less" href="style.less">
+	<script src="less.js"></script>
+	<script>
+	console.log("asd");
+	</script>
+	<script  src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+</head>
+<body style="background-color:#0084b4">
+	<header>
+		<div class="wrapper">
+			<img src="gfx/logo.png">
+			<span>Twitter - </span>
+		</div>
+	</header>
+	<div id="content">
+		<div class="wrapper">
+			<div class="panel right">
+				<h1>Create a Tweet</h1>
+				<p>
+					<input type="text" id="addText" name="text" placeholder="Type a tweet here"/><br>
+					<input type="text" id="addAccountId" name="accountId" placeholder="Your account"/><br>
+					<button id="addButton">Tweet</button>
+				</p>
+			</div>			
+			<div class="panel right" style="margin-top:350px; margin-right:-305px;">
+				<h1>Trends</h1>
+			</div>
+
+			<div class="panel left">
+				<h1>Public Tweets</h1>
+				<div id="tweets">
+				</div>
+<!--				<div class="tweetWrapper">
+					<img class="avatar" src="gfx/user2.png">
+					<span class="name">&nbsp;&nbsp;&nbsp;Kermit</span> @username <span class="time">15m</span>
+					<p>
+						Cras justo odio, dapibus ac facilisis in, egestas Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <a href="#">http://net.tutsplus.com/tutorials/php/ ...</a>
+					</p>
+-->
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="home.js"></script>	
+</body>
+</html>
